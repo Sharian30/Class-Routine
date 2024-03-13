@@ -1,0 +1,62 @@
+
+body, h1, h5, p, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Logo section */
+#logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#logo div {
+    margin-right: 20px;
+}
+
+#logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+#logo h1 {
+    font-size: 24px;
+    color: rgb(1, 1, 20);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: #007700;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ece0e0 ;
+}
+
+tbody tr:hover {
+    background-color: #aee9ae;
+}
+#Green{
+   color: #007700; 
+   font-size: 40px;
+   font-weight: bolder;
+}
